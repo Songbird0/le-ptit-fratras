@@ -5,7 +5,7 @@ Ubuntu 18.04
 - download `docker-credential-pass`.
 `wget` https://github.com/docker/docker-credential-helpers/releases/download/v0.6.0/docker-credential-pass-v0.6.0-amd64.tar.gz
 - unpack `tar -xf docker-credential-pass-v0.6.0-amd64.tar.gz`
-- i couldn`t configure `$PATH` environment variable, so i copied unpacked file to `/usr/bin` directory.
+- i couldn't configure `$PATH` environment variable, so i copied unpacked file to `/usr/bin` directory.
 - check that `docker-credential-pass` work. To do this, run command `docker-credential-pass`. 
 You should see: `Usage: docker-credential-pass <store|get|erase|list|version>`.
 - install gpg and pass. `apt install gpg pass`
